@@ -42,7 +42,7 @@ project/
 │   └── inventory.csv
 │
 ├── sql/
-│   ├── queries.sql
+│   └── queries.sql
 │
 ├── src/
 │   ├── extract.py
@@ -131,7 +131,6 @@ Visualizations:
 ## 🚀 Future Improvements
 - Implement advanced forecasting models (ARIMA, Prophet, LSTM)
 - Automate pipeline using Airflow
-- Connect to real database (PostgreSQL/MySQL)
 - Deploy as API or dashboard app
 
 ## 👩‍💻 Author
