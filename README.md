@@ -1,126 +1,135 @@
-📊 Sales Forecasting & Inventory Optimization System
-<div align="center">
+# 📊 Sales Forecasting & Inventory Optimization System
 
-🚀 End-to-End Data Analytics Project
-📦 Forecast Demand | 📈 Analyze Sales | ⚙️ Optimize Inventory
+## 📌 Project Overview
 
+This project demonstrates an end-to-end data analytics pipeline for **sales analysis, demand forecasting, and inventory optimization**.
 
+The goal is to help businesses:
+- Understand sales performance
+- Predict future demand
+- Optimize inventory levels
+- Reduce stock-outs and overstock situations
 
+---
 
+## 🎯 Objectives
 
+- Analyze historical sales data
+- Build a forecasting model for future sales
+- Identify products at risk of stock-out
+- Generate reorder recommendations
+- Visualize insights through a dashboard
 
+---
 
+## 🧰 Tech Stack
 
-</div>
-📌 Overview
+- **Python** (pandas, numpy, scikit-learn, statsmodels)
+- **SQL** (data analysis & joins)
+- **Power BI** (dashboard & visualization)
+- **CSV files** (data source)
+- **Git** (version control)
 
-This project showcases a complete data analytics pipeline for:
+---
 
-📊 Sales analysis
-🔮 Demand forecasting
-📦 Inventory optimization
-
-💡 The goal is to help businesses make data-driven decisions and improve operational efficiency.
-
-🎯 Objectives
-
-✔ Analyze historical sales data
-✔ Build a forecasting model
-✔ Detect stock-out risks
-✔ Generate reorder recommendations
-✔ Create an interactive dashboard
-
-🧰 Tech Stack
-Category	Tools Used
-🐍 Programming	Python (pandas, numpy, scikit-learn, statsmodels)
-🗄️ Data	SQL
-📊 Visualization	Power BI
-📁 Storage	CSV files
-🔧 Versioning	Git
-🏗️ Project Structure
+## 🏗️ Project Structure
 project/
 │
 ├── data/
-│   ├── sales.csv
-│   ├── inventory.csv
+│ ├── sales.csv
+│ ├── inventory.csv
 │
 ├── src/
-│   ├── extract.py
-│   ├── transform.py
-│   ├── model.py
-│   ├── inventory.py
-│   ├── main.py
+│ ├── extract.py
+│ ├── transform.py
+│ ├── model.py
+│ ├── inventory.py
+│ ├── main.py
 │
 ├── dashboard/
-│   └── dashboard.pbix
+│ ├── dashboard.pbix
 │
 └── README.md
-🔄 Pipeline Workflow
-🔹 Steps
 
-1. Extract
 
-Load CSV data
+---
 
-2. Transform
+## 🔄 Pipeline Workflow
 
-Clean & preprocess data
-Feature engineering
+1. **Extract**
+   - Load sales and inventory data from CSV files
 
-3. Model
+2. **Transform**
+   - Clean data
+   - Convert date formats
+   - Perform feature engineering
 
-Train regression model
-Generate forecasts
+3. **Model**
+   - Train a regression model to predict revenue
+   - Generate sales forecasts
 
-4. Inventory Optimization
+4. **Inventory Optimization**
+   - Calculate average daily sales
+   - Define reorder points
+   - Identify products needing restock
 
-Calculate reorder points
-Detect low-stock products
+5. **Output**
+   - Generate recommendations for inventory replenishment
 
-5. Output
+---
 
-Generate actionable insights
-▶️ Run the Project
-git clone https://github.com/your-username/project.git
+## ▶️ How to Run the Project
+
+### 1. Navigate to project folder
 cd project
-python src/main.py
-📊 Example Output
-=== PRODUCTS THAT NEED REORDER ===
 
-product_id | stock_quantity | reorder_point | need_reorder
----------------------------------------------------------
-104        | 15             | 28            | True
-109        | 5              | 21            | True
-📈 Dashboard
-🔑 KPIs
+### 2. Run the pipeline
+python src/main.py
+
+## 📊 Example Output
+## === PRODUCTS THAT NEED REORDER ===
+
+## product_id | stock_quantity | reorder_point | need_reorder
+-------------------------------------------------------------
+## 104        | 15             | 28            | True
+## 109        | 5              | 21            | True
+
+## 📈 Dashboard (Power BI)
+
+The dashboard includes:
+
+KPI Metrics:
 Total Revenue
 Total Quantity Sold
 Average Daily Sales
-📊 Visuals
-📈 Sales Trend
-📊 Top Products
-📦 Inventory Levels
-⚠️ Reorder Alerts
-🧠 Key Features
 
-✨ End-to-end pipeline (ETL + ML + Business Logic)
-📊 Sales forecasting model
-📦 Inventory optimization
-📈 Interactive dashboard
-💡 Business insights
+Visualizations:
+📈 Sales trend over time (Line chart)
+📊 Top products (Bar chart)
+📦 Stock levels (Bar chart)
+⚠️ Reorder list (Table)
 
-💼 Business Value
+## 🧠 Key Features
+End-to-end data pipeline (ETL + ML + business logic)
+Sales forecasting model
+Inventory optimization logic
+SQL-based analysis
+Business-oriented insights
+Dashboard visualization
 
-🚀 Reduce stock-outs
-📉 Avoid overstocking
-📊 Improve demand planning
-🧠 Enable data-driven decisions
+## 💼 Business Value
+This solution helps:
+Reduce stock-outs
+Avoid overstocking
+Improve demand planning
+Enable data-driven decision making
 
-🚀 Future Improvements
-🤖 Advanced models (ARIMA, Prophet, LSTM)
-⏱️ Pipeline automation (Airflow)
-🗄️ Database integration (PostgreSQL/MySQL)
-🌐 API / Web dashboard deployment
-👩‍💻 Author
+## 🚀 Future Improvements
+Implement advanced forecasting models (ARIMA, Prophet, LSTM)
+Automate pipeline using Airflow
+Connect to real database (PostgreSQL/MySQL)
+Deploy as API or dashboard app
 
+## 👩‍💻 Author
 Nevena Ćulibrk
+ - formatiraj i ovo lepo napisi za readme.md za github da samo paste-ujem
