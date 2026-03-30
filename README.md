@@ -33,6 +33,8 @@ The goal is to help businesses:
 
 
 ## 🏗️ Project Structure
+
+```bash
 project/
 │
 ├── data/
@@ -50,6 +52,7 @@ project/
 │   └── dashboard.pbix
 │
 └── README.md
+```
 
 
 ## 🔄 Pipeline Workflow
