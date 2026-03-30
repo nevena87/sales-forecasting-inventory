@@ -41,6 +41,9 @@ project/
 │   ├── sales.csv
 │   └── inventory.csv
 │
+├── sql/
+│   ├── queries.sql
+│
 ├── src/
 │   ├── extract.py
 │   ├── transform.py
