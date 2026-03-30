@@ -98,15 +98,17 @@ python src/main.py
 The dashboard includes:
 
 KPI Metrics:
-Total Revenue
-Total Quantity Sold
-Average Daily Sales
+- Total Revenue
+- Total Quantity Sold
+- Average Daily Sales
 
 Visualizations:
-📈 Sales trend over time (Line chart)
-📊 Top products (Bar chart)
-📦 Stock levels (Bar chart)
-⚠️ Reorder list (Table)
+- Sales trend over time (Line chart)
+- Top products (Bar chart)
+- Stock levels (Bar chart)
+- Reorder list (Table)
+
+<img width="1660" height="863" alt="dashboard" src="https://github.com/user-attachments/assets/7d84c9e2-7ca9-4cf4-bb4a-0d9ff2af5ea5" />
 
 ## 🧠 Key Features
 End-to-end data pipeline (ETL + ML + business logic)
