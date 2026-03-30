@@ -111,25 +111,25 @@ Visualizations:
 <img width="1660" height="863" alt="dashboard" src="https://github.com/user-attachments/assets/7d84c9e2-7ca9-4cf4-bb4a-0d9ff2af5ea5" />
 
 ## 🧠 Key Features
-End-to-end data pipeline (ETL + ML + business logic)
-Sales forecasting model
-Inventory optimization logic
-SQL-based analysis
-Business-oriented insights
-Dashboard visualization
+- End-to-end data pipeline (ETL + ML + business logic)
+- Sales forecasting model
+- Inventory optimization logic
+- SQL-based analysis
+- Business-oriented insights
+- Dashboard visualization
 
 ## 💼 Business Value
-This solution helps:
-Reduce stock-outs
-Avoid overstocking
-Improve demand planning
-Enable data-driven decision making
+- This solution helps:
+- Reduce stock-outs
+- Avoid overstocking
+- Improve demand planning
+- Enable data-driven decision making
 
 ## 🚀 Future Improvements
-Implement advanced forecasting models (ARIMA, Prophet, LSTM)
-Automate pipeline using Airflow
-Connect to real database (PostgreSQL/MySQL)
-Deploy as API or dashboard app
+- Implement advanced forecasting models (ARIMA, Prophet, LSTM)
+- Automate pipeline using Airflow
+- Connect to real database (PostgreSQL/MySQL)
+- Deploy as API or dashboard app
 
 ## 👩‍💻 Author
 Nevena Ćulibrk
