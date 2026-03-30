@@ -30,7 +30,7 @@ The goal is to help businesses:
 - **CSV files** (data source)
 - **Git** (version control)
 
----
+
 
 ## 🏗️ Project Structure
 project/
@@ -50,7 +50,7 @@ project/
 │   └── dashboard.pbix
 │
 └── README.md
----
+
 
 ## 🔄 Pipeline Workflow
 
