@@ -36,22 +36,20 @@ The goal is to help businesses:
 project/
 │
 ├── data/
-│ ├── sales.csv
-│ ├── inventory.csv
+│   ├── sales.csv
+│   └── inventory.csv
 │
 ├── src/
-│ ├── extract.py
-│ ├── transform.py
-│ ├── model.py
-│ ├── inventory.py
-│ ├── main.py
+│   ├── extract.py
+│   ├── transform.py
+│   ├── model.py
+│   ├── inventory.py
+│   └── main.py
 │
 ├── dashboard/
-│ ├── dashboard.pbix
+│   └── dashboard.pbix
 │
 └── README.md
-
-
 ---
 
 ## 🔄 Pipeline Workflow
@@ -87,12 +85,13 @@ cd project
 python src/main.py
 
 ## 📊 Example Output
-## === PRODUCTS THAT NEED REORDER ===
 
- product_id | stock_quantity | reorder_point | need_reorder
--------------------------------------------------------------
- 104        | 15             | 28            | True
- 109        | 5              | 21            | True
+### Products That Need Reorder
+
+| product_id | stock_quantity | reorder_point | need_reorder |
+|------------|---------------|---------------|--------------|
+| 104        | 15            | 28            | True         |
+| 109        | 5             | 21            | True         |
 
 ## 📈 Dashboard (Power BI)
 
@@ -132,4 +131,3 @@ Deploy as API or dashboard app
 
 ## 👩‍💻 Author
 Nevena Ćulibrk
- - formatiraj i ovo lepo napisi za readme.md za github da samo paste-ujem
