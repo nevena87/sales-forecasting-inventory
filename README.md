@@ -89,10 +89,10 @@ python src/main.py
 ## 📊 Example Output
 ## === PRODUCTS THAT NEED REORDER ===
 
-## product_id | stock_quantity | reorder_point | need_reorder
+ product_id | stock_quantity | reorder_point | need_reorder
 -------------------------------------------------------------
-## 104        | 15             | 28            | True
-## 109        | 5              | 21            | True
+ 104        | 15             | 28            | True
+ 109        | 5              | 21            | True
 
 ## 📈 Dashboard (Power BI)
 
