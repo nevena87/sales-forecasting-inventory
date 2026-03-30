@@ -1,26 +1,42 @@
 📊 Sales Forecasting & Inventory Optimization System
-📌 Project Overview
+<div align="center">
 
-This project demonstrates an end-to-end data analytics pipeline for sales analysis, demand forecasting, and inventory optimization.
+🚀 End-to-End Data Analytics Project
+📦 Forecast Demand | 📈 Analyze Sales | ⚙️ Optimize Inventory
 
-The system helps businesses:
 
-Understand sales performance
-Predict future demand
-Optimize inventory levels
-Reduce stock-outs and overstock situations
+
+
+
+
+
+
+</div>
+📌 Overview
+
+This project showcases a complete data analytics pipeline for:
+
+📊 Sales analysis
+🔮 Demand forecasting
+📦 Inventory optimization
+
+💡 The goal is to help businesses make data-driven decisions and improve operational efficiency.
+
 🎯 Objectives
-Analyze historical sales data
-Build a forecasting model for future sales
-Identify products at risk of stock-out
-Generate reorder recommendations
-Visualize insights through a dashboard
+
+✔ Analyze historical sales data
+✔ Build a forecasting model
+✔ Detect stock-out risks
+✔ Generate reorder recommendations
+✔ Create an interactive dashboard
+
 🧰 Tech Stack
-Python (pandas, numpy, scikit-learn, statsmodels)
-SQL (data analysis & joins)
-Power BI (dashboard & visualization)
-CSV files (data source)
-Git (version control)
+Category	Tools Used
+🐍 Programming	Python (pandas, numpy, scikit-learn, statsmodels)
+🗄️ Data	SQL
+📊 Visualization	Power BI
+📁 Storage	CSV files
+🔧 Versioning	Git
 🏗️ Project Structure
 project/
 │
@@ -36,30 +52,37 @@ project/
 │   ├── main.py
 │
 ├── dashboard/
-│   ├── dashboard.pbix
+│   └── dashboard.pbix
 │
 └── README.md
 🔄 Pipeline Workflow
-1. Extract
-Load sales and inventory data from CSV files
-2. Transform
-Data cleaning
-Date formatting
-Feature engineering
-3. Model
-Train a regression model to predict revenue
-Generate sales forecasts
-4. Inventory Optimization
-Calculate average daily sales
-Define reorder points
-Identify products that need restocking
-5. Output
-Generate actionable inventory recommendations
-▶️ How to Run the Project
-# 1. Navigate to project folder
-cd project
+🔹 Steps
 
-# 2. Run the pipeline
+1. Extract
+
+Load CSV data
+
+2. Transform
+
+Clean & preprocess data
+Feature engineering
+
+3. Model
+
+Train regression model
+Generate forecasts
+
+4. Inventory Optimization
+
+Calculate reorder points
+Detect low-stock products
+
+5. Output
+
+Generate actionable insights
+▶️ Run the Project
+git clone https://github.com/your-username/project.git
+cd project
 python src/main.py
 📊 Example Output
 === PRODUCTS THAT NEED REORDER ===
@@ -68,39 +91,36 @@ product_id | stock_quantity | reorder_point | need_reorder
 ---------------------------------------------------------
 104        | 15             | 28            | True
 109        | 5              | 21            | True
-📈 Dashboard (Power BI)
-
-The dashboard includes:
-
-KPI Metrics
+📈 Dashboard
+🔑 KPIs
 Total Revenue
 Total Quantity Sold
 Average Daily Sales
-Visualizations
-📈 Sales trend over time (Line chart)
-📊 Top products (Bar chart)
-📦 Stock levels (Bar chart)
-⚠️ Reorder list (Table)
+📊 Visuals
+📈 Sales Trend
+📊 Top Products
+📦 Inventory Levels
+⚠️ Reorder Alerts
 🧠 Key Features
-End-to-end pipeline (ETL + ML + business logic)
-Sales forecasting model
-Inventory optimization logic
-SQL-based analysis
-Business-oriented insights
-Interactive dashboard
+
+✨ End-to-end pipeline (ETL + ML + Business Logic)
+📊 Sales forecasting model
+📦 Inventory optimization
+📈 Interactive dashboard
+💡 Business insights
+
 💼 Business Value
 
-This solution enables:
+🚀 Reduce stock-outs
+📉 Avoid overstocking
+📊 Improve demand planning
+🧠 Enable data-driven decisions
 
-Reduced stock-outs
-Prevention of overstocking
-Improved demand planning
-Data-driven decision making
 🚀 Future Improvements
-Implement advanced forecasting models (ARIMA, Prophet, LSTM)
-Automate pipeline using Airflow
-Connect to a real database (PostgreSQL/MySQL)
-Deploy as an API or dashboard application
+🤖 Advanced models (ARIMA, Prophet, LSTM)
+⏱️ Pipeline automation (Airflow)
+🗄️ Database integration (PostgreSQL/MySQL)
+🌐 API / Web dashboard deployment
 👩‍💻 Author
 
 Nevena Ćulibrk
