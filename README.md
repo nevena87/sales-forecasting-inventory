@@ -81,20 +81,17 @@ project/
 
 ## ▶️ How to Run the Project
 
-### 1. Navigate to project folder
-cd project
-
-### 2. Run the pipeline
+### 1. Run the pipeline
 python src/main.py
 
 ## 📊 Example Output
 
 ### Products That Need Reorder
 
-| product_id | stock_quantity | reorder_point | need_reorder |
-|------------|---------------|---------------|--------------|
-| 104        | 15            | 28            | True         |
-| 109        | 5             | 21            | True         |
+| product_id | stock_quantity | daily_avg_sales | reorder_point | need_reorder |
+|------------|----------------|-----------------|---------------|--------------|
+| 102        | 20             | 4.000000        | 28.0          | True         |
+| 104        | 15             | 3.142857        | 22.0          | True         |
 
 ## 📈 Dashboard (Power BI)
 
