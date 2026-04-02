@@ -1,16 +1,17 @@
 from extract import load_all
-from transform import clean_sales_data, feature_engineering, aggregate_daily
+from transform import clean_sales_data, aggregate_daily
 from model import SalesModel
 from inventory import calculate_daily_sales, compute_reorder_points, merge_with_inventory
+
 
 def main():
     # 1. Extract
     sales, inventory = load_all()
 
-    # 2. Transform
+    # 2. Transform (minimal cleaning only)
     sales = clean_sales_data(sales)
-    sales = feature_engineering(sales)
-    daily_agg = aggregate_daily(sales)
+
+    # ⚠️ više ne radiš feature_engineering ovde
 
     # 3. Model
     model = SalesModel()
@@ -29,6 +30,7 @@ def main():
     # 5. Output
     print("\n=== PRODUCTS THAT NEED REORDER ===\n")
     print(final_df[final_df['need_reorder'] == True])
+
 
 if __name__ == "__main__":
     main()
