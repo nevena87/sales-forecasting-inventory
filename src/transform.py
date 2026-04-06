@@ -1,6 +1,5 @@
 import pandas as pd
 
-
 def clean_sales_data(df: pd.DataFrame) -> pd.DataFrame:
     # uklanjamo samo redove gde fale ključne vrednosti
     df = df.dropna(subset=["date", "product_id", "quantity"])
@@ -12,7 +11,6 @@ def clean_sales_data(df: pd.DataFrame) -> pd.DataFrame:
     df["revenue"] = df["revenue"].astype(float)
 
     return df
-
 
 def aggregate_daily(df: pd.DataFrame) -> pd.DataFrame:
     df = (
@@ -26,7 +24,6 @@ def aggregate_daily(df: pd.DataFrame) -> pd.DataFrame:
 
     return df
 
-
 def merge_with_inventory(
     sales: pd.DataFrame,
     inventory: pd.DataFrame
@@ -38,7 +35,6 @@ def merge_with_inventory(
     df["stock_quantity"] = df["stock_quantity"].fillna(0)
 
     return df
-
 
 def feature_engineering(df: pd.DataFrame) -> pd.DataFrame:
     # sortiranje (VAŽNO za time series)

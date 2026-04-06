@@ -3,7 +3,6 @@ import logging
 
 logging.basicConfig(level=logging.INFO)
 
-
 def load_sales_data(path: str = "data/sales.csv") -> pd.DataFrame:
     try:
         df = pd.read_csv(path)
